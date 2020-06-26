@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+$(document).ready(function() {
+    $('#gallery a').lightBox();
+}); 
+
+body {
+	background-image:url(back_peacock_texture.jpg); 
+	background-repeat: repeat;
+	font-family: 'Arial Narrow', Arial, sans-serif; 
+	font-size:11pt; 
+	text-align:center; 
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#wrap {
+	font-size: 1.5em;
+   width: 880px;
+   height:850px;
+   padding: 20px;
+   margin: 0 auto; 
+   position:relative;
+   text-align:left;
+   background-color:#FFF;
+ }
+
+#line {
+	margin-top: 100px;
+}
+	
+	/*footer start*/
+.footer {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	text-align:center;
+	position: fixed;
+	bottom: 0;
+	margin-top: 470px;
+	background-color:#FFF;
+	width:920px;
+	height: 129px;
+	color: #666;
+	font-size: 0.65em;
+	text-align:center;
+	margin-left:-20px;
+	/* [disabled]padding-bottom:20px; */
+	background-color:;
+	border-top: 1px solid #91D5E8;
+	z-index:50;
+	}
+/*end footer*/
+
+/*footer links*/
+.hyperlink2 a
+{	
+	display: inline block ;
+	font-weight:bold;
+	color:#666;
+	background-color:none;
+	width:170px;
+	text-align:center;
+	padding:12px;
+	text-decoration:none;
+}
+.hyperlink2 a:visited
+	{color:#666;}
+.hyperlink2 a:hover,a:active
+{
+	color:#91D5E8;
+	background-color:none;
+}
+/*end footer links*/
+
+
+
+.left {
+		width: 240px;
+		height: 322px;
+		float: left;
+		margin-left: 55px;
+		margin-top: -90px;
+		text-align:left;
+	}
+	
+	.left2 {
+		width: 240px;
+		height: 322px;
+		float: left;
+		margin-left: -240px;
+		margin-top: 162px;
+		text-align:left;
+		z-index: 100;
+	}
+	
+.right {
+		width: 500px;
+		float: left;
+		margin-left: 45px;
+		margin-top: -85px;
+		text-align:left;
+	}
+
+.center {
+		width: 500px;
+		float: left;
+		margin-left: 53px;
+		margin-top: -45px;
+		text-align:left;
+	}
+	
+p {
+	color: #666;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size:.9em;
+}
+
+h3 {
+	font-size: 1em;
+	color: #666;
+	font-style:italic;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	}
+
+
+h4 {
+	font-size: .8em;
+	text-align:center;
+	color: #666;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	}
+
+		
+h2 	{font-size: 32px;
+	color: #CCC;
+	padding-top: 4px;
+	margin-bottom: 10px;
+	font-size: 1.7em;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	}
+
+
+label.error {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#6C6;
+	font-size:1.2em;
+	font-weight:bold;
+	font-style:italic;
+}
+
+input.error, select.error {
+	border: 1px red dotted;
+}
+
+#signup { 
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size:.8em;
+	color: #6C6;   
+	width: 650px;
+	text-align:left;
+	margin: 0 auto;
+	max-width: 750px;
+	height:850px;
+  }
+	
+
+.slideshow{
+	position:relative;
+	float:left;
+	top:-90px;
+	width:783px;
+	margin-left: 55px;
+	z-index:1;
+	
+}

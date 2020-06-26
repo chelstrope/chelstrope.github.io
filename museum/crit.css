@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+label.error {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#6C6;
+	font-size:1.2em;
+	font-weight:bold;
+	font-style:italic;
+}
+
+input.error, select.error {
+	border: 1px red dotted;
+}
+
+#signup { 
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	color: #6C6;   
+	width: 650px;
+	text-align:left;
+	margin: 0 auto;
+	max-width: 750px;
+	height:850px;
+  }
+	
+h1 {
+	text-align:left;
+	font-size: 1.2em;
+	font-style:italic;
+	color:#6C6;
+}
+
+h2 {
+	font-size:.9em;
+	color:#6C6;
+}
+
+.hyperlink a
+{
+	display: inline block ;
+	color:#3cc;
+	text-align:left;
+	text-decoration:underline;
+		font-size:1em;
+}
+.hyperlink a:visited
+	{color:#3cc;}
+.hyperlink a:hover,a:active
+{
+	text-shadow: 1px 1px 1px #3cc;
+	color:#6C6;
+	background-color:none;
+	font-size:1em;
+}
+

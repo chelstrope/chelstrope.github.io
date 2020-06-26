@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Pacific Ocean Museum</title>
+
+<!--links to css files-->
+<link rel= "stylesheet" href="back.css" type="text/css" />
+<link rel= "stylesheet" href="crit.css" type="text/css" />
+<!--end links to css files-->
+
+<!--favicon link-->
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<!--favicon link end-->
+
+<!--link jquery-->
+<script type= "text/javascript" src= "../js/jquery.js"></script>
+<!--link to jquery end-->
+
+<!--begin javascript function-->
+<script type="text/javascript">
+$(document).ready(function( ) {
+$('.answer').hide( );
+$('#main h2').toggle(
+function ( ) {
+	$(this).next('.answer').fadeIn( );
+},
+function( ) {
+	$(this).next('.answer').fadeOut( );
+}
+);
+});
+<!--end of javascript function-->
+</script>
+</head>
+<body>
+<div id="wrap">
+<!--name banner at top-->
+<a href="index.html"><img src="title3.png" width="600" height="150" border="0" align="middle"/></a>
+<!--end name banner at top-->
+
+<!--begin navbar-->
+
+<ul id="navbar">
+
+<li><a href= "index.html" class="round_left">Visit</a><ul>
+</li></ul></li>
+<li><a href= "gallery.htm">Gallery</a><ul>
+<li><a href= "index.html">Permanent Collection</a></li>
+<li><a href= "index.html">Current Exhibition</a></li>
+<li><a href= "index.html">Past Exhibition</a></li>
+<li><a href= "index.html" class"round_bottom">Future Exhibition</a></li>
+</ul></li>
+<li><a href="crit.html">Support</a></li>
+</li>
+<li><a href= "index.html">About</a><ul>
+<li><a href= "index.html">Mission Statement</a></li>
+<li><a href= "index.html">History</a></li>
+<li><a href= "faq.html">FAQ</a></li>
+<li><a href= "index.html" class"round_bottom">Contact Us</a></li>
+</ul></li>
+<li><a href= "index.html" class="round_right">Events</a></ul>
+</li></ul>
+</div>
+</div>
+<!--end nav bar-->
+
+
+
+
+<!--footer start-->
+<div class= "footer">
+<div class= "hyperlink2">
+<br />
+<a href="index.html">Visit</a>    . 
+<a href="index.html">Gallery</a>   . 
+<a href="index.html">Support</a>   . 
+<a href="index.html">About</a>    .
+<a href="index.html">Events</a>
+<br />
+<h4 align="center" >
+&copy; 2012 Pacific Ocean Museum. All rights reserved.  Email:<a href="mailto:POM.museum@aim.com">POM.museum@aim.com</a>
+</h4>
+<div class= "rss">
+<a href= "http://www.chelseastrope.com/museum/index/rss.xml">
+<img src="../rss_feed_colors/13.png" width="20" height="20"/>
+</div>
+<div class="twitter">
+<a href= "https://twitter.com/pacificoceanmuseum">
+<img src="twitter.png" width="20" height="20"/>
+</div>
+</div>
+</div>
+<!--footer end-->
+</h4>
+</div>
+<!--footer-->
+</body>
+</html>

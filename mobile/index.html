@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Pacific Ocean Museum</title>
+
+<!--links to css files-->
+    <link rel= "stylesheet" href="mobile.css" type="text/css" />
+<!--end links to css files--> 
+
+<!--favicon link-->
+<link rel="icon" href="http://chelseastrope.com/museum/favicon.ico" type="image/x-icon"/>
+<!--favicon link end-->
+
+<!--link jquery-->  
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script type= "text/javascript" src= "../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.validate.js"></script>
+<!--end jquery links-->
+
+<style>
+$.mobile.transitionFallbacks.slideout = "none"
+	#coffeeicon .ui-icon-custom {
+	background-image: url("../toolbars/glyphish-icons/34-coffee.png");
+	background-position: 2px 2px;
+	background-size: 90%; }	
+</style>
+
+<!--begin javascript function-->
+<script type="text/javascript">
+$(document).ready(function( ) {
+$('#signup').validate({
+	rules: {
+email: {
+	required: true,
+},
+}, //end rules
+	messages: {
+
+email : {
+	required: ' This Email Is Not Valid'
+},
+	} //end messages
+}); <!--end validate-->
+});
+<!--end of javascript function-->
+</script>
+
+</head>
+ <body> 
+
+<!--begin container-->
+<div id="container">
+<div data-role="page">
+<div data-role="content">
+	
+<!--header image start-->
+<div id="header">
+<img src="http://chelseastrope.com/mobile/smalltitle.png" width="100%">
+</div>
+<!--end header image-->    
+         
+
+<ul data-role="listview" data-inset="true" data-theme="c">
+<li data-role="list-divider">Home</li>
+   
+<!--about us start -->
+<div data-role="collapsible" data-collapsed-icon="home" data-expanded-icon="arrow-d" data-content-theme="c">
+   <h3>About Us</h3>
+The mystery and beauty of the Pacific Ocean Museum provides an educational and inspiring experience to become more involved in keeping our ocean clean.
+</div>
+
+<!-- about us end-->
+
+<!--faq start -->     
+<div data-role="collapsible" data-collapsed-icon="info" data-expanded-icon="arrow-d"   data-content-theme="c">
+<h3>FAQ</h3>
+<!--Q 1-->			
+<div data-role="collapsible" data-theme="c" data-content-theme="c">
+<h3>Q: Is the Pacific Ocean important?</h3>
+A: The Pacific Ocean occupies half of the Earth's sea surface and more than one third of Earth's surface. Pollution and overfishing among other things threatens the delicate ecosystems and life found there.
+</div>
+<!--Q 1-->
+<!--Q 2-->			
+<div data-role="collapsible" data-theme="c" data-content-theme="c">
+<h3>Q: What about ocean pollution?</h3>
+A: Most pollution that ends up in the ocean come from the land and is due to things such as runoff and garbage or plastic.
+</div>
+<!--Q 2--> 
+<!--Q 3-->			
+<div data-role="collapsible" data-theme="c" data-content-theme="c">
+<h3>Q: What about plastic?</h3>
+A: During the past 40 years, plastic in the "Great Pacific Garbage Patch has increased 100-fold. This area of garbage is roughly the size of Texas.
+</div>
+<!--Q 3-->               
+<!--Q 4-->			
+<div data-role="collapsible" data-theme="c" data-content-theme="c">
+<h3>Q: Does plastic impact marine life?</h3>
+A: Jellyfish, seagulls, and other marine life get tangled in the plastic while Sea Turtles mistake plastic bags for Jellyfish, their favorite food.
+</div>
+<!--Q 4--> 
+<!--Q 5-->			
+<div data-role="collapsible" data-theme="c" data-content-theme="c">
+<h3>Q: What about habitat destruction?</h3>
+A: Costal areas are suffering the most from habitat destruction, which are the closest to the human population. Reasons for the loss of habitat are overfishing, pollution, mining, and poor costal planning.
+</div>
+<!--Q 5-->  
+<!--Q 6-->			
+<div data-role="collapsible" data-theme="c" data-content-theme="c">
+<h3>Q: The future of our ocean?</h3>
+A: To make a cleaner ocean for the future, changes can start at your home: carry your own reusable bags and reusable water bottle to cut back on the plastic you use.
+</div>
+<!--Q 6-->                
+</div>
+<!--faq end -->        
+    
+<!--visit start-->       
+<li data-role="list-divider">Prices and Hours</li>
+<div data-role="collapsible" data-collapsed-icon="star" data-expanded-icon="arrow-d"  data-content-theme="c">
+<h3>Visit</h3>
+<h1>Location:</h1>
+1010 Pacific View Avenue, Huntington Beach, CA
+<br/>
+<br/>
+<h1>Hours:</h1>			
+Sunday: 	9am-7pm
+<br/> 	
+Monday: 	Closed
+<br/> 	
+Tuesday: 	10am-3pm 
+<br/>	
+Wednesday: 	10am-5pm
+<br/> 	
+Thursday: 	10am-3pm
+<br/> 	
+Friday: 	10am-5pm
+<br/> 	
+Saturday: 	9am-7pm 
+<br/>
+<br/>
+<h1>Admission Prices:</h1>
+Seniors ages 55 and over: 	$6
+<br/>
+Adults ages 16 and over: 	$8
+<br/>
+Youth ages 6 to 15: 	$6
+<br/>
+Children ages 5 and under: 	$4
+<br/>	
+Students: 	$4
+<br/>
+1 year Membership: 	$20
+<br/>
+<br/>
+</div>
+<!--visit end-->       
+
+<!--support start-->       
+<li data-role="list-divider">Join or Contact Us</li>
+<div data-role="collapsible" data-collapsed-icon="info" data-expanded-icon="arrow-d"  data-content-theme="c">
+   <h3>Support</h3>    
+    <form id="signup" method="post" action="form.php">  
+    
+    <div data-role="fieldcontain">
+	<label for="name">Full Name:</label>
+	<input type="text" name="name" id="name" value="" data-mini="true" placeholder="Last, First" class="required" title=" Please provide your name."/>
+	</div>
+    <div data-role="fieldcontain">
+	<label for="bday">Birthday:</label>
+	<input type="text" name="bday" id="bday" value="" data-mini="true" placeholder="DD/MO/YEAR" class="required" title=" Please provide your birthday."/>
+	</div>
+
+    <div data-role="fieldcontain">
+	<label for="email">E-mail address:</label>
+	<input type="text" name="email" id="email" value="" data-mini="true" class="required" title=" Please provide your e-mail."/>
+	</div>
+    <div data-role="fieldcontain">
+	<label for="number">Phone Number:</label>
+	<input type="text" name="number" id="number" value="" data-mini="true" placeholder="(###) ###-####" class="required" title=" Please provide your phone number."/>
+	</div>
+    <div data-role="fieldcontain">
+	<label for="address">Street Address:</label>
+	<input type="text" name="address" id="address" value="" data-mini="true" class="required" title=" Please provide your street address."/>
+	</div>
+    <div data-role="fieldcontain">
+	<label for="city">City:</label>
+	<input type="text" name="city" id="city" value="" data-mini="true" class="required" title=" Please provide your city."/>
+	</div>
+	<div data-role="fieldcontain">
+	<label for="select-choice-3" class="select">State:</label>
+    <select name="select-choice-3" id="select-choice-3" data-mini="true">
+					<option value="AL">Alabama</option>
+					<option value="AK">Alaska</option>
+					<option value="AZ">Arizona</option>
+					<option value="AR">Arkansas</option>
+					<option value="CA">California</option>
+					<option value="CO">Colorado</option>
+					<option value="CT">Connecticut</option>
+					<option value="DE">Delaware</option>
+					<option value="FL">Florida</option>
+					<option value="GA">Georgia</option>
+					<option value="HI">Hawaii</option>
+					<option value="ID">Idaho</option>
+					<option value="IL">Illinois</option>
+					<option value="IN">Indiana</option>
+					<option value="IA">Iowa</option>
+					<option value="KS">Kansas</option>
+					<option value="KY">Kentucky</option>
+					<option value="LA">Louisiana</option>
+					<option value="ME">Maine</option>
+					<option value="MD">Maryland</option>
+					<option value="MA">Massachusetts</option>
+					<option value="MI">Michigan</option>
+					<option value="MN">Minnesota</option>
+					<option value="MS">Mississippi</option>
+					<option value="MO">Missouri</option>
+					<option value="MT">Montana</option>
+					<option value="NE">Nebraska</option>
+					<option value="NV">Nevada</option>
+					<option value="NH">New Hampshire</option>
+					<option value="NJ">New Jersey</option>
+					<option value="NM">New Mexico</option>
+					<option value="NY">New York</option>
+					<option value="NC">North Carolina</option>
+					<option value="ND">North Dakota</option>
+					<option value="OH">Ohio</option>
+					<option value="OK">Oklahoma</option>
+					<option value="OR">Oregon</option>
+					<option value="PA">Pennsylvania</option>
+					<option value="RI">Rhode Island</option>
+					<option value="SC">South Carolina</option>
+					<option value="SD">South Dakota</option>
+					<option value="TN">Tennessee</option>
+					<option value="TX">Texas</option>
+					<option value="UT">Utah</option>
+					<option value="VT">Vermont</option>
+					<option value="VA">Virginia</option>
+					<option value="WA">Washington</option>
+					<option value="WV">West Virginia</option>
+					<option value="WI">Wisconsin</option>
+					<option value="WY">Wyoming</option>
+		</select>
+    <div data-role="fieldcontain">
+	<label for="zip">Zip:</label>
+	<input type="text" name="zip" id="zip" value="" data-mini="true" class="required" title=" Please provide your zip code."/>
+	</div>
+    <div data-role="fieldcontain">
+	<fieldset data-role="controlgroup" data-mini="true">
+	<legend>Would you like to:</legend>
+	<input type="checkbox" name="member" id="checkbox-1a" class="custom" />
+	<label for="checkbox-1a">Become a Member</label>
+	<input type="checkbox" name="volunteer" id="checkbox-2a" class="custom" />
+	<label for="checkbox-2a">Become a Volunteer</label>
+	<input type="checkbox" name="newsletter" id="checkbox-3a" class="custom" />
+	<label for="checkbox-3a">Recieve a Monthly Newsletter</label>
+    </fieldset>
+	</div>
+    <input name="submit" value="Send" input type="submit" data-theme="b"> 
+</form>
+</div>  
+</div>
+<!--support end-->
+<!--contact us start-->       
+<div data-role="collapsible" data-collapsed-icon="info" data-expanded-icon="arrow-d"  data-content-theme="c">
+   <h3>Contact Us</h3> 
+<form id="signup" method="post" action="form.php">   
+<div data-role="fieldcontain">
+<label for="name">Full Name:</label>
+<input type="text" name="name" id="name" value="" data-mini="true" placeholder="Last, First" class="required" title=" Please provide your name."/>
+</div>
+<div data-role="fieldcontain">
+<label for="textarea">Comments or Concerns:</label>
+<textarea cols="40" rows="8" name="textarea" id="textarea" data-mini="true"placeholder="Please type here."></textarea>
+<br/>
+<br/>
+<input name="submit" value="Send" input type="submit" data-theme="b">
+</form>
+</div>  
+</div>
+<!--contact us start-->         
+
+<!--event start-->              
+<li data-role="list-divider">Events</li>
+<!--october-->
+<div data-role="collapsible" data-collapsed-icon="star" data-expanded-icon="arrow-d"  data-content-theme="c">
+<h3>October</h3>
+<h1>Sat Oct 6:</h1>
+9am-7pm 	Turtle Touch Tank
+<br/>
+<h1>Sat Oct 13:</h1>
+9am-7pm 	Turtle Races
+<br/>
+<h1>Sat Oct 20:</h1>
+9am-7pm 	Turtle Talk
+<br/>
+<h1>Sat Oct 27:</h1>
+9am-7pm 	Turtle Show                            
+</div>	
+<!--october-->
+<!--november -->
+<div data-role="collapsible" data-collapsed-icon="star" data-expanded-icon="arrow-d" data-content-theme="c">
+   <h3>November</h3>
+<h1>Sat Nov 3:</h1>
+9am-7pm 	Shark Touch Tank
+<br/>
+<h1>Sat Nov 10: </h1>	
+9am-7pm 	Shark Races
+<br/>
+<h1>Sat Nov 17:</h1> 	
+9am-7pm 	Shark Talk
+<br/>
+<h1>Sat Nov 24: </h1>	
+9am-7pm 	Shark Show
+</div>
+<!--november -->
+<!--december -->
+<div data-role="collapsible" data-collapsed-icon="star" data-expanded-icon="arrow-d" data-content-theme="c">
+   <h3>December</h3>
+<h1>Sat Dec 1:</h1>
+9am-7pm 	Seahorse Touch Tank
+<br/>
+<h1>Sat Dec 8:</h1> 	
+9am-7pm 	Seahorse Races
+<br/>
+<h1>Sat Dec 15: </h1>	
+9am-7pm 	Seahorse Talk
+<br/>
+<h1>Sat Dec 22: </h1>	
+9am-7pm 	Seahorse Show
+<br/>
+<h1>Sat Dec 29: </h1>	
+9am-7pm 	Seahorse Friends
+</div>
+<!--december -->
+
+
+<!--event end-->  
+
+<!--footer start-->
+<div data-role="footer" class="ui-bar" data-theme="b">
+<div data-role="controlgroup" data-type="horizontal">
+	<a href="http://chelseastrope.com/museum/index.html" data-icon="home">Full Site</a>
+	<a href="http://www.ticketmaster.com/" data-icon="star">Purchase Tickets </a>
+    <a href="http://www.chelseastrope.com/blog/" data-icon="arrow-r">Blog</a>
+</div>
+</div>
+            
+
+<!--footer end-->
+
+</div><!-- /content -->
+</div><!-- /page -->
+</div><!--container end-->
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Pacific Ocean Museum</title>
+
+<!--links to css files-->
+<link rel= "stylesheet" href="back.css" type="text/css" />
+<link rel= "stylesheet" href="crit.css" type="text/css" />
+<!--end links to css files-->
+
+<!--favicon link-->
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<!--favicon link end-->
+
+<!--link jquery-->
+<script type= "text/javascript" src= "../js/jquery.js"></script>
+<!--link to jquery end-->
+
+<!--begin jquery validate-->
+<script type="text/javascript"
+src="../js/jquery.validate.js">
+</script>
+<!--end jquery validate-->
+
+<!--begin javascript function-->
+<script type="text/javascript">
+$(document).ready(function( ) {
+$('#signup').validate({
+	rules: {
+email: {
+	required: true,
+},
+}, //end rules
+	messages: {
+
+email : {
+	required: ' This Email Is Not Valid'
+},
+	} //end messages
+}); <!--end validate-->
+});
+<!--end of javascript function-->
+</script>
+</script>
+</head>
+<body>
+<div id="wrap">
+<!--name banner at top-->
+<!--name banner at top-->
+<div id="logo">
+<a href="index.html"><img src="title3.png" width="600" height="150" border="0" align="middle"/></a>
+</div>
+<!--end name banner at top-->
+
+<ul id="navbar">
+
+<li><a href= "index.html" class="round_left">Home</a><ul>
+<li><a href= "faq.html">FAQ</a></li>
+<li><a href= "http://www.chelseastrope.com/blog/">Blog</a>
+</li>
+
+</ul></li>
+<li><a href="visit.html">Visit</a></li>
+</li>
+<li><a href= "current.html">Gallery</a><ul>
+<li><a href= "permanent.html">Permanent Collection</a></li>
+<li><a href= "current.html">Current Exhibition</a></li>
+<li><a href= "past.html">Past Exhibition</a></li>
+<li><a href= "future.html" class"round_bottom">Future Exhibition</a></</li>
+</ul></li>
+<li><a href="support.html">Support</a><ul>
+<li><a href= "membership.html">Membership</a></li>
+<li><a href= "volunteer.html">Volunteer</a></li>
+<li><a href= "art.html">Submit Art</a></li>
+<li><a href= "newsletter.html">Newsletter</a></li>
+<li><a href= "contact.html" class"round_bottom">Contact Us</a></li>
+</ul></li>
+<li><a href= "event.html" class="round_right">Events</a></ul>
+</li></ul>
+</div>
+</div>
+<!--end nav bar-->
+
+
+<!--begin div container, main, faq-->
+<div id="container"> 
+<div id="main">
+<!--container box start-->
+<h1 align="left">Show Your Love By:</h1>
+<div id="jelly" align="left"> 
+<img src="jelly2.jpg" width="300" height="246" border="0" align="middle"/>
+</div>
+
+<!--start rightbox-->
+<div id= "rightbox3">
+<!--start of crit form-->
+<form id="signup" method="post" action="newsletter.php">
+<h1 align="left" style="text-decoration:underline">Newsletter</h1>
+<h2 align="left">Information Includes:</h2>
+<h3 align="left">*Free Admission Days
+<br/>
+*Deals & Discounts
+<br/>
+*Event Reminders
+</h3>
+<label>Full Name:</label>
+<br/>
+<input name= "name" id="name" type="text" class="required" title=" Please provide your first name." maxlength="20" size="20" minlength="3">
+<br/>
+<br/>
+<label>E-mail Address:</label>
+<br/>
+<input name= "email" id="email" type="text" class="required email"  title=" Please provide your e-mail." cols="30">
+<br/>
+<br/>
+<input name="submit" value="send" input type="submit">
+</form>
+<!--end of crit form-->
+
+</div><!--end div container, main, faq-->
+</div>
+</div>
+
+
+<!--footer start-->
+<div class= "footer">
+<div class= "hyperlink2">
+<br />
+<br />
+<a href="index.html">Home</a>    . 
+<a href="visit.html">Visit</a>   . 
+<a href="current.html">Gallery</a>   . 
+<a href="support.html">Support</a>    .
+<a href="event.html">Events</a>    .
+<a href= "http://www.chelseastrope.com/blog/">Blog</a>
+
+<br />
+<h4 align="center" >
+&copy; 2012 Pacific Ocean Museum. All rights reserved.  Email:<a href="mailto:POM.museum@aim.com">POM.museum@aim.com</a>
+</h4>
+<div class= "rss">
+<a href= "http://chelseastrope.com/museum/rss.xml" target="_blank">
+<img src="../rss_feed_colors/13.png" width="20" height="20"/>
+</div>
+<div class="twitter">
+<a href= "https://twitter.com/pomocean" target="_blank">
+<img src="twitter.png" width="25" height="25"/>
+</div>
+</div>
+</div>
+<!--footer end-->
+</h4>
+</div>
+<!--footer-->
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is the doc type-->
+<rss version="2.0">
+<channel>
+<!-- content for rss feed goes here
+-->
+
+<title>Pacific Ocean Museum</title>
+<description>Homepage</description>
+<link>http://chelseastrope.com/museum/index.html</link>
+
+<item>
+<title>Visit</title>
+<description>Directions, Prices, Hours</description>
+<link>http://chelseastrope.com/museum/visit.html</link>
+</item>
+
+<item>
+<title>Gallery</title>
+<description>Permanent Collection along with Current, Past and Future Exhibitions</description>
+<link>http://chelseastrope.com/museum/gallery.htm</link>
+</item>
+
+<item>
+<title>Support</title>
+<description>Volunteer, Membership, Newsletter</description>
+<link>http://chelseastrope.com/museum/support.html</link>
+</item>
+
+<item>
+<title>Event</title>
+<description>Calendar and events</description>
+<link>http://chelseastrope.com/museum/event.html</link>
+</item>
+
+</channel>
+</rss>

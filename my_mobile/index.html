@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Chelsea Strope</title>
+
+<!--links to css files-->
+    <link rel= "stylesheet" href="mobile.css" type="text/css" />
+<!--end links to css files--> 
+
+<!--favicon link-->
+<link rel="icon" href="http://chelseastrope.com/favicon.ico" type="image/x-icon"/>
+<!--favicon link end-->
+
+<!--link jquery-->  
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script type= "text/javascript" src= "../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.validate.js"></script>
+<!--end jquery links-->
+
+<!--begin javascript function-->
+<script type="text/javascript">
+$(document).ready(function( ) {
+$('#signup').validate({
+	rules: {
+email: {
+	required: true,
+},
+}, //end rules
+	messages: {
+
+email : {
+	required: ' This Email Is Not Valid'
+},
+	} //end messages
+}); <!--end validate-->
+});
+<!--end of javascript function-->
+</script>
+  
+</head>
+ <body> 
+
+<!--begin container-->
+<div id="container">
+<div data-role="page">
+<div data-role="content">
+	
+<!--header image start-->
+<div id="header">
+<img src="http://chelseastrope.com/smalltitle.png" width="80%" style="margin-left:-20px">
+</div>
+<!--end header image-->    
+         
+
+<ul data-role="listview" data-inset="true" data-theme="d">
+<li data-role="list-divider" data-theme="d">work</li>
+   
+<!--about us start -->
+<div data-role="collapsible" data-collapsed-icon="home" data-expanded-icon="arrow-d" data-content-theme="c">
+   <h3>about</h3>
+Hi! I'm Chelsea: a gamer, animal lover, writer, environmentalist, reader, and most of all, an artist. Currently, my focus has been on school and working towards a BFA in Graphic Design. I thoroughly enjoy designing logos, branding and illustrations, but my interests are not limited to these. Small details and subtle messages are my strong suit, as I believe all design should not only intrigue the viewer on an intellectual level, but also linger in their minds. Utilizing Adobe programs, pencils, pens, and paper are merely the tools for my art. My skills, abilities, eagerness to learn, and love for creating art provide a pathway to being an original and unforgettable visual communicator. 
+</div>
+
+<!-- about us end-->        
+    
+         
+<li data-role="list-divider">work</li>
+<li><a href="http://www.chelseastrope.com/my_mobile/gd.html">graphic design</a></li>   
+       
+
+<!--support start-->       
+<li data-role="list-divider" data-theme="d">contact</li>
+<!--contact us start-->       
+<div data-role="collapsible" data-collapsed-icon="info" data-expanded-icon="arrow-d"  data-content-theme="c">
+   <h3>say hello!</h3> 
+<form id="contact" method="post" action="form2.php">   
+<div data-role="fieldcontain">
+<label for="name">name:</label>
+<input type="text" name="name" id="name" value="" data-mini="true" placeholder="full name" class="required" title=" please provide your name"/>
+</div>
+    <div data-role="fieldcontain">
+	<label for="email">e-mail address:</label>
+	<input type="text" name="email" id="email" value="" data-mini="true" placeholder="hello@gmail.com" class="required" title=" please provide your e-mail"/>
+	</div>
+<div data-role="fieldcontain">
+<label for="textarea">comments & questions:</label>
+<textarea cols="40" rows="8" name="textarea" id="textarea" data-mini="true"placeholder="type here"></textarea>
+<br/>
+<br/>
+<input name="submit" value="Send" input type="submit" data-theme="b">
+</form>
+</div>  
+</div>
+<!--contact us start-->         
+
+
+<!--footer start-->
+<div data-role="footer" class="ui-bar" data-theme="d" >
+<div data-role="controlgroup" data-type="horizontal" style="margin-left:-15px">
+	<a href="http://www.linkedin.com/in/chelseastrope/" data-icon="star">linked in</a>
+    <a href="http://www.chelseastrope.com/resume1.pdf" data-icon="arrow-r">resume</a>
+</div>
+</div>
+<!--footer end-->
+
+</div>
+
+</div><!-- /content -->
+</div><!-- /page -->
+</div><!--container end-->
+
+</body>
+</html>

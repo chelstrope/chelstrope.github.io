@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<!--this adds an icon to the top of the page, by the url-->
+
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Chelsea Strope</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="CSS3 Lightbox - A CSS-only lightbox" />
+        <meta name="keywords" content="css3, lightbox, overlay, effect, images, thumbnails, navigate" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    	<link rel= "stylesheet" href= "site.css" type="text/css" />
+<!--links to css file-->
+
+<!--track-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37981043-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--track-->
+
+<!--link jquery-->
+<script type= "text/javascript" src= "../js/jquery.js"></script>
+<!--link to jquery end-->
+
+<!--begin jquery validate-->
+<script type="text/javascript"
+src="../js/jquery.validate.js">
+</script>
+<!--end jquery validate-->
+
+<!--begin javascript function-->
+<script type="text/javascript">
+$(document).ready(function( ) {
+$('#signup').validate({
+	rules: {
+email: {
+	required: true,
+},
+}, //end rules
+	messages: {
+
+email : {
+	required: ' This Email Is Not Valid'
+},
+	} //end messages
+}); <!--end validate-->
+});
+<!--end of javascript function-->
+</script>
+</script>
+
+
+
+
+<!--nav bar-->
+<style type="text/css">
+<!--   
+#navbar ul { 
+font-family: 'Arial Narrow', Arial, sans-serif;
+font-size: 1.04em;	
+margin-left: 299px;
+margin-top:-26px; 
+padding: 0;		
+list-style-type: none; 	
+text-align: center;
+color:#666;
+width: 600px;	
+ }  
+
+#navbar ul li {
+padding: 9px 1px;  	
+display: inline; 	}    
+
+#navbar ul li a { 
+text-decoration: none; 	
+padding: .2em 1em; 	
+color: #666; 		}  
+
+#navbar ul li a:hover { 	
+color: #91D5E8; 		}  --> 
+</style>
+<!--end nav-->
+
+</head>
+    <body id="page">
+    
+    <div id="wrap">
+<!--name banner at top-->
+<div id="logo">
+<a href="index.html"><img src="myname.png" width="300" height="113" border="0" align="middle"/></a>
+</div>
+
+<div id="navbar">   
+<ul> <li><a href="index.html">home</a></li> 	
+<li><a href="about.html">about</a></li> 	
+<li><a href="graphic.html">graphic design</a></li> 	
+<li><a href="fine.html">fine art</a></li> 	
+<li><a href="contact.html">contact</a></li>
+<li><a href="resume1.pdf">resume</a></li></ul></div>
+
+
+        <div class="container">
+
+<div class="left">
+<img src="images/hi.png" alt="photo">
+</div>
+
+<div class="left2">
+<p>send an email:</p>
+<br/>
+<div class= "hyperlink2">
+<p><a href="mailto:chelseastrope@gmail.com">chelseastrope@gmail.com</a></p>
+</div>
+</div>
+
+
+<div class="right">
+<h2>say hello!</h2>
+<h3>have questions or comments? 
+<br/>
+feel free to send me a message! </h3>
+<form method="post" action="contact.php">
+<ul>
+<li class="msgname">
+<label for="Name">name: <br/></label><input class="required"  title=" Please provide your name." type="text" name="Name" id="Name"></li>
+<br/>
+<li><label for="Email">email: <br/></label><input class="required email"  title=" Please provide your email." type="text" name="Email" id="Email"></li>
+<br/>
+<li><label for="Message">message: <br/></label><textarea name="Message" id="Message" rows=3 cols=22></textarea></li>
+<br/>
+<li><input name="submit" value="send" type="submit" onclick="myFunction()" value="Show alert box"></li>
+
+</ul>
+</form>
+
+
+<br/>
+<br/>
+<!--
+<div id="contactinfo">
+<p></p>
+<p>send an email:</p>
+<br/>
+<div class= "hyperlink2">
+<p><a href="mailto:chelseastrope@gmail.com">chelseastrope@gmail.com</a></p>
+</div>
+</div>
+-->
+</div>
+</div>
+
+	
+			
+        <!--footer start-->
+<div class= "footer">
+<div class= "hyperlink2">
+<br />
+<br />
+<a href="index.html">home</a>    . 
+<a href="about.html">about</a>   . 
+<a href="graphic.html">graphic design</a>   . 
+<a href="fine.html">fine art</a>    .
+<a href="contact.html">contact</a>    .
+<a href="resume1.pdf">resume</a>    .
+<a href= "http://www.linkedin.com/pub/chelsea-strope/63/577/b54/" target="_blank">linked in</a>
+
+<br />
+<br />
+<h4 align="center" >
+&copy; 2014 Chelsea Strope. All rights reserved.  Email:<a href="mailto:chelseastrope@gmail.com">chelseastrope@gmail.com</a>
+</h4>
+	</ul>
+			</section>
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	/* [disabled]width: 100%; */
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:1.1em;
+	color: #333
+}
+
+#logo {
+	margin-left: -290px;
+	margin-top: -30px;
+}
+
+#wrap {
+	font-size: 1.5em;
+   width: 900px;
+   padding: 20px;
+   margin: 0 auto; 
+   position:relative;
+   text-align:center;
+ }
+   
+/* navbar start */
+/* rounded edges of navbar */
+.round_left {
+    border-radius: 1em 0 0 4em; }
+.round_right {
+    border-radius: 0 4em 1em 0; }
+/* rounded edges of navbar end */
+
+/*navbar start*/
+#navbar {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	position:absolute;
+	z-index: 40;
+	font-size:1.4em;
+	font-weight:600;
+	margin-left: 80px;
+	margin-top: -35px;
+	padding: 0;
+	font-size:18px;
+	min-width: 900px;
+	color: #3cc;
+    }
+#navbar li {
+   list-style: none;
+   float: left;
+    }
+#navbar a:link {
+	display: block;
+	font-size:1em;
+	padding: 9px 50px;
+	background-color: #FFF;
+	color: #999;
+	text-decoration: none; }
+#navbar a:visited {
+	color:#999;
+	background-color:#;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px #000;}
+#navbar a:hover {
+	color: #3cc;
+	 text-shadow: 1px 1px 1px #fff;
+	 background-color: #EAEAEA;}
+#navbar a:active {
+	color: #3cc;
+	background-color:#EAEAEA;
+	text-decoration:none;
+}
+#navbar ul {
+   display: none; 
+   width: 8.5em;}
+#navbar li:hover ul {
+	z-index: 90;
+   display: block;
+   position: absolute;
+   margin: 0;
+   padding: 0;}
+#navbar li:hover li {
+   float: none;}
+#navbar li:hover li a {
+   font-style:italic;
+   border-bottom: 1px dotted #3FC;
+   color: #999; 
+   font-size:16px;
+   }
+#navbar li li a:hover {
+   color:#3cc;
+   font-style:italic;
+   text-shadow: 1px 1px 2px #fff;
+   background-color:#EAEAEA;
+}
+/*nav bar end*/
+
+
+/*footer links*/
+.hyperlink2 a
+{	
+	display: inline block ;
+	font-weight:bold;
+	color:#FFF;
+	background-color:none;
+	width:170px;
+	text-align:center;
+	padding:12px;
+	text-decoration:none;
+}
+.hyperlink2 a:visited
+	{color:#FFF;}
+.hyperlink2 a:hover,a:active
+{
+	text-shadow: 0px 0px 0px #000;
+	color:#3FC;
+	background-color:none;
+	font-size:.95em;
+}
+/*end footer links*/
+
+
+/*faq page style*/
+.faq {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+#container {
+	position:relative;
+	width: 650px;
+	height:700px;
+	margin: 0 auto;
+}
+
+#error {
+	margin: 0 auto;
+	width: 650px;
+	height:700px;
+	margin-left: 115px;
+	margin-top: 30px;
+}
+
+
+/*end faq page style*/
+
+p {
+	font-size: 13px;
+	color: #666;  
+	text-align:left;	
+	}
+
+#leftbox {
+	height:400px;
+	width: 300px;
+	margin-left: 100px;
+	margin-top: -420px;
+	position:relative;
+}
+
+#rightbox {
+	height:400px;
+	width: 300px;
+	margin-left: 290px;
+	margin-top: -420px;
+	position:relative;
+}
+
+#jelly {
+margin-top:0px;	
+}
+
+#rightbox2 {
+	height:400px;
+	width: 350px;
+	margin-left:470px;
+	margin-top: -530px;
+	position:relative;
+}
+
+#rightbox3 {
+	height:400px;
+	width: 350px;
+	margin-left:320px;
+	margin-top: -260px;
+	position:relative;
+}
+
+#rightbox4 {
+	height:400px;
+	width: 350px;
+	margin-left:320px;
+	margin-top: -260px;
+	position:relative;
+}
+
+#rightbox5 {
+	height:400px;
+	width: 350px;
+	margin-left:470px;
+	margin-top: -580px;
+	position:relative;
+}
+
+h3 {
+	text-align:left;
+	font-size: .8em;
+	font-style:italic;
+	color:#999;	
+}
+
+
+#location {
+	font-size: .75em;
+	color: #999;  
+	text-align:left;  
+}
+	
+#info {
+	font-size: .75em;
+	color: #999;  
+	text-align:left;
+}
+
+#hours {
+	font-size: .75em;
+	color: #999;  
+	text-align:left;
+	padding: 0;
+	margin-top: 0px;
+	margin-left:0px;
+	border-collapse: seperate;
+}
+
+/* calendar */
+.calendar {
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.date {
+	height: 60px;
+	width: 60px;
+	padding-top: 8px;
+	padding-right: 3px;
+	color: #999;
+	font-weight: bold;
+	margin-bottom: 2px;
+	 border:1px solid #999; 
+	 }
+/*end calendar*/	 
+	 
+/*footer start*/
+.footer {
+	text-align:center;
+	position:fixed;
+	bottom: 0;
+	width:100%;
+	height: 100px;
+	opacity:.9;
+	color: #FFF;
+	font-size: 0.65em;
+	text-align:center;
+	/* [disabled]padding-bottom:20px; */
+	background-color:#333;
+	border-top: 3px solid #3FC;
+	z-index:50;
+	}
+/*end footer*/
+
+.rss {
+	position:relative;
+	margin-left: 500px;
+	margin-top: -30px;
+}
+
+.twitter {
+	position:relative;
+	margin-left: 550px;
+	margin-top: -40px;
+}

@@ -1,0 +1,367 @@
+/*--------------------
+	RESET
+--------------------*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 150%;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/*--------------------
+	GLOBAL TYPOGRAPHY
+--------------------*/
+
+body {
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+h2 {
+	font-size: 32px;
+	color: #8F5EEC;
+	padding-top: 4px;
+	margin-bottom: 30px;
+	}
+
+h3 {
+	color: #8F5EEC;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #8F5EEC;
+	}
+	a:hover {
+		color: #B37DF4;
+	}
+
+/*--------------------
+	STRUCTURE
+--------------------*/
+
+body {
+	background: #060A0B url("images/pic.jpg") no-repeat top center;
+}
+
+#pagewrap {
+	background: url("images/pic.jpg") no-repeat top center;
+	width: 820px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 0 100px;
+}
+
+#header {
+	width: 800px;
+	height: 90px;
+	padding-top: 90px;
+	margin-left: -30px;
+}
+
+#content {
+	background: url("images/textarea.png") no-repeat top center;
+	clear: left;
+	width: 760px;
+	height: 410px;
+	position: relative;
+	top: 100px;
+	left: 22px;
+	}
+	#content div.page {
+		position: absolute;
+		top: 49px;
+		left: 38px;
+	}
+	#content div.left {
+		width: 240px;
+		height: 322px;
+		float: left;
+		margin-left: -17px;
+		margin-top: -6px;
+	}
+	#content div.right {
+		width: 460px;
+		float: left;
+		margin-left: 18px;
+		margin-top: -10px;
+	}
+	#content div.both {
+		height:335px;
+		width:725px;
+		border:1px solid #ccc; 
+		overflow:auto;
+	}
+
+#footer {
+	color: #666;
+	margin-top: 5px;
+	text-align: center;
+	position:relative;
+	top: 200px;
+	left: -10px;
+	}
+	#footer a {
+		color: #963;
+	}
+
+/*--------------------
+	NAVIGATION
+--------------------*/
+
+ul#navigation {
+	float: right;
+	}
+	ul#navigation li {
+		float: left;
+		}
+		ul#navigation li a {
+			display: block;
+			width: 64px;
+			height: 90px;
+			text-indent: -9999px;
+			margin-left: 42px;
+			}
+			ul#navigation li a.about {
+				background: url("images/icon-about.png") no-repeat top left;
+				}
+				ul#navigation li a.about:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.work {
+				background: url("images/icon-work.png") no-repeat top left;
+				}
+				ul#navigation li a.work:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.workgd {
+				background: url("images/icon-workgd.png") no-repeat top left;
+				}
+				ul#navigation li a.workgd:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.contact {
+				background: url("images/icon-contact.png") no-repeat top left;
+				}
+				ul#navigation li a.contact:hover {
+					background-position: top right;
+				}
+			ul#navigation li.active {
+				background: url("images/nav-underline.png") no-repeat 42px 0;
+			}
+		ul#navigation li a img {
+			background: url("images/nav-underline.png") no-repeat 42px 0;
+			list-style: none;
+			border: none;
+			margin-right: 25px;
+			padding: 5px;
+		}
+
+/*--------------------
+	CONTENT - ABOUT
+--------------------*/
+
+#about img {
+	background: url("images/photobg-big.png") no-repeat top left;
+	padding: 0 5px;
+}
+
+#about ul {
+	list-style: none;
+	}
+	#about ul li {
+		float: left;
+		font-size: 18px;
+		font-weight: bold;
+		margin-right: 40px;
+		padding: 6px 10px 10px 6px;
+		}
+		#about ul li img {
+			display: block;
+		}
+
+/*--------------------
+	CONTENT - WORK
+--------------------*/
+
+#work .left img {
+	background: none;
+	padding: 6px 10px 10px 6px;
+	margin-bottom: 0;
+}
+
+#work .left h3 a {
+	color: #039;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 0 0 10px;
+	}
+	#work .left h3 a:hover {
+		color: #c60;
+	}
+#work .left p {
+	margin: -5px 0 0 10px;
+}
+
+#work h3 {
+	clear: left;
+}
+
+#work img {
+	padding: 6px;
+	background: url("images/thumb-bg.png") no-repeat top left;
+	float: left;
+	margin: 0 25px 20px 0;
+	vertical-align: bottom;
+	}
+	#work a:hover img {
+		background: url("images/thumb-bg-rol.png");
+	}
+
+/*--------------------
+	CONTENT - WORK2
+--------------------*/
+
+#workgd .left img {
+	background: none;
+	padding: 6px 10px 10px 6px;
+	margin-bottom: 0;
+}
+
+#workgd .left h3 a {
+	color: #039;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 0 0 10px;
+	}
+	#workgd .left h3 a:hover {
+		color: #c60;
+	}
+#workgd .left p {
+	margin: -5px 0 0 10px;
+}
+
+#workgd h3 {
+	clear: left;
+}
+
+#workgd img {
+	padding: 6px;
+	background: url("images/thumb-bg.png") no-repeat top left;
+	float: left;
+	margin: 0 25px 20px 0;
+	vertical-align: bottom;
+	}
+	#workgd a:hover img {
+		background: url("images/thumb-bg-rol.png");
+	}
+
+/*--------------------
+	CONTENT - CONTACT
+--------------------*/
+
+#contact div.left h3, #contact div.left ul {
+	margin: 10px 0 0 17px;
+}
+
+#contact ul li.right {
+	width: 410px;
+}
+
+label {
+	display: block;
+}
+
+input, textarea {
+	background: transparent;
+	border: 1px solid #999;
+	margin-bottom: 12px;
+	width: 206px;
+	height: 20px;
+	}
+	textarea {
+		height: 90px;
+	}
+	input.send {
+		width: 80px;
+		height: 28px;
+		color: #fff;
+		font-weight: bold;
+		background: #666;
+		border-color: #666;
+		cursor: pointer;
+		float: left;
+		margin: 5px 0 40px 0;
+		}
+		input.send:hover {
+			background: #999;
+		}
+
+#contactinfo {
+	margin: 50px 0 0 0;
+	background: url("images/icon-send.png") no-repeat top left;
+	}
+	#contactinfo p {
+	font-size: 21px;
+	text-indent: 100px;
+	margin-bottom: 0;
+	}
+	#contactinfo p a {
+		text-decoration: none;
+	}
+
+#form-msg {
+	width: 400px;
+	height: 120px;
+	margin: 0 auto;
+	padding-top: 150px;
+	text-align: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chelsea Strope</title>
+<!--favicon link-->
+<link rel="icon" href="http://chelseastrope.com/favicon.ico" type="image/x-icon"/>
+<!--favicon link end-->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+<script src="js/imageflip.mini.js"></script>
+<style type="text/css">
+#iGallery		{list-style:none; padding:0px; margin:0px}
+#iGallery li	{list-style:none; padding:2px; margin:2px; border:1px solid #999; float:left}
+
+/* imageflip CSS. Copy & Paste this to your CSS file */
+#imageflippage	{background-color:#000; margin:0px; padding:0px; border:none; height:100%; width:100%}
+#tadcontent		{padding:0px; margin:0px; position:relative; background:#000; height:100%; width:100%;}
+#imageflipimg	{vertical-align:middle; height:100%; width:100%; z-index:98; background-position:center; background-size:contain; text-align:center; background-repeat:no-repeat }
+#imagefliper	{width:100%; top:45px; bottom:0px; position:absolute; z-index:99}
+#tadnavi		{position:fixed; top:0px; z-index:100; width:100%; opacity:0.7; display:none }
+#tadinfo		{position:fixed; display:none; bottom:0px; width:100%; padding:5px; background-color:#333333; opacity:0.7; color:#FFFFFF; text-align:center; font-size:small; font-family:Verdana, Geneva, sans-serif}
+
+</style>
+<script type="text/javascript">
+$( document ).delegate("#home", "pageinit", function() {
+	$('#iGallery').imageflip()
+})
+</script>
+</head>
+<body>
+
+<div data-role="page" id="home" data-theme="c" data-title="imageFlip Demo">
+	<!--header image start-->
+<div id="header">
+<a href="http://chelseastrope.com/my_mobile/index.html"><img src="http://chelseastrope.com/smalltitle.png" width="80%" ></a>
+</div>
+<!--end header image--> 
+    <div data-role="header" data-theme="d" id="header"><h1>graphic design</h1></div>
+	<div data-role="content" id="content">
+		<div class="content-primary">	
+		<ul id="iGallery">
+	<li><a title="Rhino Run" href="images/game.jpg"><img src="images/b.jpg" /></a></li>
+	<li><a title="Rhino Run: game board" href="images/gameboard.jpg"><img src="images/c.jpg" /></a></li>
+	<li><a title="Rhino Run: player pieces" href="images/parts.jpg"><img src="images/d.jpg" /></a></li>
+	<li><a title="Scarf Face" href="images/a1.jpg"><img src="images/a.jpg" /></a></li>
+    <li><a title="Scarf Face: magazine spread" href="images/mag.jpg"><img src="images/e.jpg" /></a></li>
+	<li><a title="Scarf Face: clothing tag" href="images/tag.jpg"><img src="images/f.jpg" /></a></li>
+    <li><a title="POM: website homepage" href="images/pom.jpg"><img src="images/g.jpg" /></a></li> 
+    <li><a title="POM: events calendar" href="images/pom3.jpg"><img src="images/h.jpg" /></a></li>
+    <li><a title="POM: email & mobile site" href="images/pom2.jpg"><img src="images/i.jpg" /></a></li>
+    <li><a title="POCO: promotional gift set" href="images/poco1.jpg"><img src="images/j.jpg" /></a></li>
+    <li><a title="POCO: t-shirt" href="images/poco2.jpg"><img src="images/k.jpg" /></a></li>
+    <li><a title="POCO: stationery design" href="images/poco3.jpg"><img src="images/l.jpg" /></a></li>
+    <li><a title="POCO: identity manual" href="images/poco4.jpg"><img src="images/m.jpg" /></a></li>
+    <li><a title="Wedding Invitation" href="images/lucy1.jpg"><img src="images/n.jpg" /></a></li>
+    <li><a title="Wedding Invitation" href="images/lucyparts1.jpg"><img src="images/o.jpg" /></a></li> 
+    <li><a title="Wedding Invitation: table decoration design" href="images/wedding_table.jpg"><img src="images/p.jpg" /></a></li> 
+    <li><a title="Monsters: young adult book" href="images/monsters1.jpg"><img src="images/q.jpg" /></a></li>
+    <li><a title="Monsters" href="images/monsters2.jpg"><img src="images/r.jpg" /></a></li> 	<li><a title="Monsters: monsters hide under pop-ups" href="images/monsters3.jpg"><img src="images/s.jpg" /></a></li>
+    <li><a title="Lightning: infographic poster" href="images/lightning2.jpg"><img src="images/t.jpg" /></a></li>
+    <li><a title="Lightning: billboard" href="images/lightning.jpg"><img src="images/u.jpg" /></a></li>
+    <li><a title="Lightning: information cards" href="images/lightning2cards.jpg"><img src="images/v.jpg" /></a></li>
+		</ul>
+		</div>
+	</div>
+    <!--footer start-->
+<div data-role="footer" class="ui-bar" data-theme="d">
+<div data-role="controlgroup" data-type="horizontal">
+	<a href="http://www.chelseastrope.com/my_mobile/index.html" data-icon="arrow-l">back</a>
+	<a href="http://www.linkedin.com/in/chelseastrope/" data-icon="star">linked in</a>
+    <a href="http://www.chelseastrope.com/resume1.pdf" data-icon="arrow-r">resume</a>
+</div>
+</div>
+<!--footer end-->
+</div>
+
+</body>
+</html>
